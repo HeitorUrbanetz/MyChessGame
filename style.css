@@ -1,0 +1,80 @@
+#startBtn {
+  background-color: #868e96;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  margin-top: 10px;
+}
+
+#startBtn:hover,
+#startbtn:active {
+  background-color: #495057;
+  cursor: pointer;
+}
+
+#clearBtn {
+  background-color: #868e96;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  margin-top: 10px;
+}
+
+#clearBtn:hover,
+#clearbtn:active {
+  background-color: #495057;
+  cursor: pointer;
+}
+
+.status {
+  font-family: sans-serif;
+  color: #444;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.rest {
+  border: 1px solid #495057;
+  margin-top: 40px;
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+}
+.center {
+  margin-top: 150px;
+  margin-left: 650px;
+  width: 50%;
+  align-content: center;
+}
+
+.flex {
+  display: flex;
+  gap: 20px;
+}
+
+#status {
+  color: #000;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+@media (min-width: 375px) and (max-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .center {
+    float: left;
+    width: 50%;
+    height: 100px;
+  }
+}

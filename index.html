@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xadrez | Heitor Urbanetz</title>
+    <link rel="stylesheet" href="css/chessboard-1.0.0.min.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/chessboard-1.0.0.min.js"></script>
+    <script src="chess.js/chess.js"></script>
+    <script defer src="game.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <style type="text/css">
+      .highlight-white {
+        box-shadow: inset 0 0 3px 3px yellow;
+      }
+      .highlight-black {
+        box-shadow: inset 0 0 3px 3px blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="center">
+      <div id="myBoard" style="width: 600px"></div>
+      <div class="flex">
+        <div class="buttons">
+          <button id="startBtn">Começar</button>
+          <button id="clearBtn">Limpar</button>
+        </div>
+        <div class="rest">
+          <label class="status">Status:</label>
+          <div id="status"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- https://chessboardjs.com/examples#5000 -->
